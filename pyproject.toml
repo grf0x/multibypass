@@ -1,6 +1,6 @@
 [project]
 name = "multibypass"
-version = "1.0.1"
+version = "1.0.3"
 description = "Pentest tool for bypassing restricted access using various techniques"
 readme = "README.md"
 license = { file = "LICENSE" }
@@ -29,7 +29,7 @@ build-backend = "setuptools.build_meta"
 packages = ["multibypass"]
 
 [tool.setuptools.package-data]
-multi_bypass = ["wordlists/*"]
+multibypass = ["wordlists/*"]
 
 [project.scripts]
-multi-bypass = "multibypass.cli:main"
+multibypass = "multibypass.cli:main"
