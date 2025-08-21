@@ -205,7 +205,10 @@ def get_request_session():
 
     if args.proxy:
         try:
-            session.proxies = {"http": args.proxy, "https": args.proxy}
+             session.proxies = {
+                "http": "http://" + args.proxy.split('//')[1],
+                "https": "http://" + args.proxy.split('//')[1]
+            }
         except:
             log.critical(f"Invalid proxy specified '{args.proxy}'")
 

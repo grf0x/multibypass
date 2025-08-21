@@ -1,6 +1,17 @@
-<a href="https://github.com/grf0x/multibypass/">
-  <img src=".img/logo.png"/>
-</a>
+<p align="center">
+  <a href="https://github.com/grf0x/multibypass/">
+    <img src="https://github.com/grf0x/multibypass/blob/master/.img/logo.png" width="85%"/>
+  </a>
+</p>
+<p align="center">
+  Pentest tool for bypassing <code>4xx</code> restrictions and spotting unusual <code>200 OK</code> responses.</br>
+  Quickly uncovers misconfigurations and weak access controls.
+</p>
+<p align="center">
+  <a href="https://github.com/grf0x/multibypass/">
+    <img src="https://github.com/grf0x/multibypass/blob/master/.img/example.png" width="85%"/>
+  </a>
+</p>
 
 ## Installation
 
@@ -10,7 +21,7 @@ pipx install multibypass
 
 ## Usage
 
-```console
+```
 usage: multibypass [-X ] [-H ] [-p ] [-j] [-x ] [-L] [-i] [-m ] [-h] [-d ] [-t ] 
 [-s] [-o ] [-q] [-v] [-C] [-n] [-si ] [-sh ] [-vm ] [-vh ] [-va ] [-c] [-l] [-V] url
 
