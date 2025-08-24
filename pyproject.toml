@@ -1,6 +1,6 @@
 [project]
 name = "multibypass"
-version = "1.0.3"
+version = "1.1.0"
 description = "Pentest tool for bypassing restricted access using various techniques"
 readme = "README.md"
 license = { file = "LICENSE" }
@@ -14,7 +14,7 @@ dependencies = [
   "requests==2.32.4",
   "urllib3==2.5.0"
 ]
-requires-python = ">=3.8"
+requires-python = ">=3.9"
 
 [project.urls]
 Homepage = "https://github.com/grf0x/multibypass"
