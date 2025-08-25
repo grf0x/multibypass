@@ -97,6 +97,13 @@ Look for misconfigured or forgotten backup/temporary files that bypass access re
 - Git/SVN metadata: `/.git/`, `/.svn/`
 - IDE/editor leftovers: `index.php.swp`, `index.php.bak`
 
+### Alternate User-Agent
+Some applications apply filters or restrictions only to certain clients. Changing the User-Agent header can bypass these filters or reveal hidden functionality.  
+
+**Examples:**
+- Search engine crawler: `User-Agent: Googlebot/2.1`
+- Custom: `User-Agent: Admin`
+
 ### Various Filter Evasion Techniques
 Trick input validation and filtering logic.
 
