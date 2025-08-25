@@ -24,8 +24,8 @@ pipx install multibypass
 ## Usage
 
 ```
-usage: multibypass [-X ] [-H ] [-d ] [-b ] [-A ] [-x ] [-L] [-k] [-m ] [-h] [-D ] [-t ] [-s]
-                   [-o ] [-q] [-v] [-C] [-n] [-l] [-V] [-i ] [-w ] url
+usage: multibypass [-X ] [-H ] [-d ] [-b ] [-A ] [-x ] [-L] [-k] [-m ] [-h] [-D ] [-t ]  
+                   [-s] [-o ] [-q] [-v] [-C] [-n] [-l] [-V] [-j] [-i ] [-w ] url
 
 Pentest tool for bypassing restricted access using various techniques.
 
@@ -59,10 +59,10 @@ OUTPUT OPTIONS:
 ATTACK OPTIONS:
   -l, --light        Perform a light attack (default: False)
   -V, --variations   Also test case variations (default: False)
+  -j, --json         Always use a json body (default: False)
   -i, --ip           Add a custom IP for spoofing attacks (default: [])
   -w, --wordlists    Use a custom wordlist directory (default: install-dir/wordlists)
   ```
-
 
 ## Implemented Bypass Techniques
 
